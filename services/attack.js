@@ -1,7 +1,6 @@
 var Config = require('../config');
 
 var calcAttack = (params) => {
-    console.log("params: ", params);
     if (params.scan && params.scan.length > 0) {
         var closest_objs = { distance: parseInt(Config.max_range), objs: [] };
         var furthest_objs = { distance: 0, objs: [] };
