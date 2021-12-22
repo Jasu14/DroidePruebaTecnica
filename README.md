@@ -9,4 +9,4 @@ Esta es la guía paso a paso para poner en funcionamiento el programa.
 
 4) Ejecutar el bat "run-app"
 
-Notas: Los tests han sido realizados mediante Jasmine. node_modules es una carpeta que se puede evitar subir al repositorio, pero por si acaso la subí
+Notas: Los tests han sido realizados mediante Jasmine.
