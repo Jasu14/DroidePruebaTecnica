@@ -24,11 +24,11 @@ app.use(session({
 
 var router = express.Router();
 require('./controllers')(config, router);
-app.use('/api/', router);
+app.use('/', router);
 
 // Routes
 var radar = require('./routes/radar');
-app.use('/api/radar', radar);
+app.use('/radar', radar);
 
 var server = http.createServer(app);
 
